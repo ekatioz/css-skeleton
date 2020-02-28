@@ -38,7 +38,7 @@ body {
     --paragraph-skeleton: linear-gradient(#999 var(--paragraph-height), transparent 0);
     --button-skeleton: linear-gradient(#FFC154 50px, transparent 0);
     
-    --loading-animation: linear-gradient(90deg, #eeeeee00 20%, #eeeeeeaa 50%, #eeeeee00 80%);
+    --loading-animation: linear-gradient(90deg, #eeeeee00 20%, #eeeeee55 50%, #eeeeee00 80%);
     --loading-size: 99% 100%;
     --loading-position: center center;
     
@@ -73,16 +73,15 @@ body {
     left 180px,
     right bottom;
 
-    animation: name duration timing-function delay iteration-count direction fill-mode;
     animation: loading  3s 500ms infinite, fadeIn 500ms ease-in forwards;
 }
 
 @keyframes fadeIn{
     from{
-        filter: opacity(0) blur(5px);
+        filter: opacity(0) blur(0px);
     }
     to{
-        filter: opacity(0.8) blur(5px);
+        filter: opacity(0.8) blur(0px);
     }
 }
 

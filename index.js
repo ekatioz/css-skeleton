@@ -13,5 +13,5 @@ document.querySelector('.load').addEventListener('click', () => {
             </article>
             <button>More Cheese</button>
         `
-    }, 2000);
+    }, 6000);
 })
